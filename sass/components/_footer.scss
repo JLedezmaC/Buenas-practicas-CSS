@@ -1,0 +1,45 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    position: absolute; 
+}
+
+.footer_white {
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center; 
+}
+
+.footer_white  li {
+    list-style: none;
+    margin: 0 70px;
+    cursor: pointer; 
+}
+
+.footer_white  a {
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff; }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: #42455a; 
+}
+
+.nav_ul {
+    display: inline-flex;
+    margin: 50px;
+}
+.nav_ul li {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer; 
+}
+.nav_ul a {
+    text-decoration: none;
+    color: #fff; 
+}
